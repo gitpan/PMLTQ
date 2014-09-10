@@ -6,7 +6,7 @@
       "Michal Sedlák <sedlak@ufal.mff.cuni.cz>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
    "license" : [
       "perl_5"
    ],
@@ -55,6 +55,7 @@
             "IO::Scalar" : "2.110",
             "JSON" : "2.90",
             "MIME::Types" : "2.04",
+            "Sys::SigAction" : "0.21",
             "Time::HiRes" : "1.97",
             "Treex::PML" : "2.17",
             "YAML" : "0.88"
@@ -65,6 +66,7 @@
             "File::Spec" : "0",
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
+            "Test::Exception" : "0.32",
             "Test::More" : "0.88"
          }
       }
@@ -72,159 +74,159 @@
    "provides" : {
       "PMLTQ" : {
          "file" : "lib/PMLTQ.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::BtredEvaluator" : {
          "file" : "lib/PMLTQ/BtredEvaluator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::CGI" : {
          "file" : "lib/PMLTQ/CGI.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Common" : {
          "file" : "lib/PMLTQ/Common.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Grammar" : {
          "file" : "lib/PMLTQ/Grammar.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::NG2PMLTQ" : {
          "file" : "lib/PMLTQ/NG2PMLTQ.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::PML2BASE" : {
          "file" : "lib/PMLTQ/PML2BASE.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::ParserError" : {
          "file" : "lib/PMLTQ/ParserError.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Planner" : {
          "file" : "lib/PMLTQ/Planner.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation" : {
          "file" : "lib/PMLTQ/Relation.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::AncestorIterator" : {
          "file" : "lib/PMLTQ/Relation/AncestorIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::AncestorIteratorWithBoundedDepth" : {
          "file" : "lib/PMLTQ/Relation/AncestorIteratorWithBoundedDepth.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::ChildnodeIterator" : {
          "file" : "lib/PMLTQ/Relation/ChildnodeIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::CurrentFileIterator" : {
          "file" : "lib/PMLTQ/Relation/CurrentFileIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::CurrentFilelistIterator" : {
          "file" : "lib/PMLTQ/Relation/CurrentFilelistIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::CurrentFilelistTreesIterator" : {
          "file" : "lib/PMLTQ/Relation/CurrentFilelistTreesIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::CurrentTreeIterator" : {
          "file" : "lib/PMLTQ/Relation/CurrentTreeIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::DepthFirstFollowsIterator" : {
          "file" : "lib/PMLTQ/Relation/DepthFirstFollowsIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::DepthFirstPrecedesIterator" : {
          "file" : "lib/PMLTQ/Relation/DepthFirstPrecedesIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::DepthFirstRangeIterator" : {
          "file" : "lib/PMLTQ/Relation/DepthFirstRangeIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::DescendantIterator" : {
          "file" : "lib/PMLTQ/Relation/DescendantIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::DescendantIteratorWithBoundedDepth" : {
          "file" : "lib/PMLTQ/Relation/DescendantIteratorWithBoundedDepth.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::FSFileIterator" : {
          "file" : "lib/PMLTQ/Relation/FSFileIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::Iterator" : {
          "file" : "lib/PMLTQ/Relation/Iterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::MemberIterator" : {
          "file" : "lib/PMLTQ/Relation/MemberIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::OptionalIterator" : {
          "file" : "lib/PMLTQ/Relation/OptionalIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::OrderIterator" : {
          "file" : "lib/PMLTQ/Relation/OrderIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::PMLREFIterator" : {
          "file" : "lib/PMLTQ/Relation/PMLREFIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::ParentIterator" : {
          "file" : "lib/PMLTQ/Relation/ParentIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::SameTreeIterator" : {
          "file" : "lib/PMLTQ/Relation/SameTreeIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::SiblingIterator" : {
          "file" : "lib/PMLTQ/Relation/SiblingIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::SiblingIteratorWithDistance" : {
          "file" : "lib/PMLTQ/Relation/SiblingIteratorWithDistance.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::SimpleListIterator" : {
          "file" : "lib/PMLTQ/Relation/SimpleListIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::TransitiveIterator" : {
          "file" : "lib/PMLTQ/Relation/TransitiveIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::TreeIterator" : {
          "file" : "lib/PMLTQ/Relation/TreeIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::TreexFileIterator" : {
          "file" : "lib/PMLTQ/Relation/TreexFileIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::Relation::TreexFilelistIterator" : {
          "file" : "lib/PMLTQ/Relation/TreexFilelistIterator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::SQLEvaluator" : {
          "file" : "lib/PMLTQ/SQLEvaluator.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       },
       "PMLTQ::TypeMapper" : {
          "file" : "lib/PMLTQ/TypeMapper.pm",
-         "version" : "v0.8.0"
+         "version" : "v0.8.1"
       }
    },
    "release_status" : "stable",
@@ -236,7 +238,7 @@
          "web" : "https://github.com/ufal/perl-pmltq"
       }
    },
-   "version" : "0.8.0",
+   "version" : "0.8.1",
    "x_authority" : "cpan:MICHALS"
 }
 

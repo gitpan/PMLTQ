@@ -2,7 +2,7 @@ package PMLTQ::ParserError;
 BEGIN {
   $PMLTQ::ParserError::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::ParserError::VERSION = '0.8.0';
+$PMLTQ::ParserError::VERSION = '0.8.1';
 # ABSTRACT: Wrapper for parsing error
 
 1; # End of PMLTQ::ParserError
@@ -19,7 +19,7 @@ PMLTQ::ParserError - Wrapper for parsing error
 
 =head1 VERSION
 
-version 0.8.0
+version 0.8.1
 
 =head1 AUTHORS
 

@@ -2,7 +2,7 @@ package PMLTQ::Relation;
 BEGIN {
   $PMLTQ::Relation::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::VERSION = '0.8.0';
+$PMLTQ::Relation::VERSION = '0.8.1';
 # ABSTRACT: Base class for all Relations standard or user defined
 
 use 5.006;
@@ -99,7 +99,7 @@ PMLTQ::Relation - Base class for all Relations standard or user defined
 
 =head1 VERSION
 
-version 0.8.0
+version 0.8.1
 
 =head1 AUTHORS
 

@@ -20,7 +20,7 @@ my %module_build_args = (
     "Michal Sedl\x{e1}k <sedlak\@ufal.mff.cuni.cz>"
   ],
   "dist_name" => "PMLTQ",
-  "dist_version" => "0.8.0",
+  "dist_version" => "0.8.1",
   "license" => "perl",
   "module_name" => "PMLTQ",
   "recommends" => {
@@ -39,6 +39,7 @@ my %module_build_args = (
     "IO::Scalar" => "2.110",
     "JSON" => "2.90",
     "MIME::Types" => "2.04",
+    "Sys::SigAction" => "0.21",
     "Time::HiRes" => "1.97",
     "Treex::PML" => "2.17",
     "YAML" => "0.88"
@@ -52,6 +53,7 @@ my %module_build_args = (
     "File::Spec" => 0,
     "IO::Handle" => 0,
     "IPC::Open3" => 0,
+    "Test::Exception" => "0.32",
     "Test::More" => "0.88"
   }
 );
@@ -62,6 +64,7 @@ my %fallback_build_requires = (
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
   "Module::Build" => "0.28",
+  "Test::Exception" => "0.32",
   "Test::More" => "0.88"
 );
 

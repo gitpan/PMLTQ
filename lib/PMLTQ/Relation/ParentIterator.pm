@@ -2,7 +2,7 @@ package PMLTQ::Relation::ParentIterator;
 BEGIN {
   $PMLTQ::Relation::ParentIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::ParentIterator::VERSION = '0.8.0';
+$PMLTQ::Relation::ParentIterator::VERSION = '0.8.1';
 # ABSTRACT: Evaluates condition on the parent of start node 
 
 use 5.006;
@@ -49,7 +49,7 @@ PMLTQ::Relation::ParentIterator - Evaluates condition on the parent of start nod
 
 =head1 VERSION
 
-version 0.8.0
+version 0.8.1
 
 =head1 AUTHORS
 

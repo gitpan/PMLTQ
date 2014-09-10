@@ -2,7 +2,7 @@ package PMLTQ::Relation::CurrentFileIterator;
 BEGIN {
   $PMLTQ::Relation::CurrentFileIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::CurrentFileIterator::VERSION = '0.8.0';
+$PMLTQ::Relation::CurrentFileIterator::VERSION = '0.8.1';
 # ABSTRACT: Iterates nodes of TredMacro::CurrentFile()
 
 use 5.006;
@@ -90,7 +90,7 @@ PMLTQ::Relation::CurrentFileIterator - Iterates nodes of TredMacro::CurrentFile(
 
 =head1 VERSION
 
-version 0.8.0
+version 0.8.1
 
 =head1 AUTHORS
 

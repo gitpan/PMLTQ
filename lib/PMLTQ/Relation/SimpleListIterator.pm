@@ -2,7 +2,7 @@ package PMLTQ::Relation::SimpleListIterator;
 BEGIN {
   $PMLTQ::Relation::SimpleListIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::SimpleListIterator::VERSION = '0.8.0';
+$PMLTQ::Relation::SimpleListIterator::VERSION = '0.8.1';
 # ABSTRACT: Base class for all iterators that iterates on a list of nodes
 
 use 5.006;
@@ -70,7 +70,7 @@ PMLTQ::Relation::SimpleListIterator - Base class for all iterators that iterates
 
 =head1 VERSION
 
-version 0.8.0
+version 0.8.1
 
 =head1 AUTHORS
 

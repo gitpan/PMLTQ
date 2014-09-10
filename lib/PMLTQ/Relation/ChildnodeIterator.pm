@@ -2,7 +2,7 @@ package PMLTQ::Relation::ChildnodeIterator;
 BEGIN {
   $PMLTQ::Relation::ChildnodeIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::ChildnodeIterator::VERSION = '0.8.0';
+$PMLTQ::Relation::ChildnodeIterator::VERSION = '0.8.1';
 # ABSTRACT: Iterates over child nodes
 
 use 5.006;
@@ -58,7 +58,7 @@ PMLTQ::Relation::ChildnodeIterator - Iterates over child nodes
 
 =head1 VERSION
 
-version 0.8.0
+version 0.8.1
 
 =head1 AUTHORS
 

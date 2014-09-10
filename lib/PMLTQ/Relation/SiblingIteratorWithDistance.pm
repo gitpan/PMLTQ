@@ -2,7 +2,7 @@ package PMLTQ::Relation::SiblingIteratorWithDistance;
 BEGIN {
   $PMLTQ::Relation::SiblingIteratorWithDistance::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::SiblingIteratorWithDistance::VERSION = '0.8.0';
+$PMLTQ::Relation::SiblingIteratorWithDistance::VERSION = '0.8.1';
 # ABSTRACT: Iterates over siblings given node with boudaries
 
 use 5.006;
@@ -129,7 +129,7 @@ PMLTQ::Relation::SiblingIteratorWithDistance - Iterates over siblings given node
 
 =head1 VERSION
 
-version 0.8.0
+version 0.8.1
 
 =head1 AUTHORS
 

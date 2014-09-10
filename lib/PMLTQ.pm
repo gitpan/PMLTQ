@@ -2,7 +2,7 @@ package PMLTQ;
 BEGIN {
   $PMLTQ::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::VERSION = '0.8.0';
+$PMLTQ::VERSION = '0.8.1';
 # ABSTRACT: Query engine and query language for trees in PML format
 
 
@@ -30,7 +30,7 @@ PMLTQ - Query engine and query language for trees in PML format
 
 =head1 VERSION
 
-version 0.8.0
+version 0.8.1
 
 =head1 DESCRIPTION
 

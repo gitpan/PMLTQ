@@ -2,7 +2,7 @@ NAME
     PMLTQ - Query engine and query language for trees in PML format
 
 VERSION
-    version 0.8.0
+    version 0.8.1
 
 DESCRIPTION
     This is an implementation of a PML-TQ search engine (CGI module) and a

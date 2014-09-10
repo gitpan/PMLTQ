@@ -2,7 +2,7 @@ package PMLTQ::Relation::SiblingIterator;
 BEGIN {
   $PMLTQ::Relation::SiblingIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::SiblingIterator::VERSION = '0.8.0';
+$PMLTQ::Relation::SiblingIterator::VERSION = '0.8.1';
 # ABSTRACT: Iterates over siblings given node
 
 use 5.006;
@@ -61,7 +61,7 @@ PMLTQ::Relation::SiblingIterator - Iterates over siblings given node
 
 =head1 VERSION
 
-version 0.8.0
+version 0.8.1
 
 =head1 AUTHORS
 
