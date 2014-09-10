@@ -2,7 +2,7 @@ package PMLTQ::Relation::AncestorIteratorWithBoundedDepth;
 BEGIN {
   $PMLTQ::Relation::AncestorIteratorWithBoundedDepth::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::AncestorIteratorWithBoundedDepth::VERSION = '0.8.1';
+$PMLTQ::Relation::AncestorIteratorWithBoundedDepth::VERSION = '0.8.2';
 # ABSTRACT: Iterates over ancestor nodes to given bound
 
 use 5.006;
@@ -89,7 +89,7 @@ PMLTQ::Relation::AncestorIteratorWithBoundedDepth - Iterates over ancestor nodes
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 AUTHORS
 

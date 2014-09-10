@@ -2,7 +2,7 @@ package PMLTQ::BtredEvaluator;
 BEGIN {
   $PMLTQ::BtredEvaluator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::BtredEvaluator::VERSION = '0.8.1';
+$PMLTQ::BtredEvaluator::VERSION = '0.8.2';
 # ABSTRACT: Pure perl evaluator of PML-TQ queries based on headless implementation of TrEd called Btred
 
 use 5.006;
@@ -3232,7 +3232,7 @@ PMLTQ::BtredEvaluator - Pure perl evaluator of PML-TQ queries based on headless 
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 IMPLEMENTATION
 

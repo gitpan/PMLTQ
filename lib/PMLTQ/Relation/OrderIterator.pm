@@ -2,7 +2,7 @@ package PMLTQ::Relation::OrderIterator;
 BEGIN {
   $PMLTQ::Relation::OrderIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::OrderIterator::VERSION = '0.8.1';
+$PMLTQ::Relation::OrderIterator::VERSION = '0.8.2';
 # ABSTRACT: Interates nodes based on their order
 
 use 5.006;
@@ -85,7 +85,7 @@ PMLTQ::Relation::OrderIterator - Interates nodes based on their order
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 AUTHORS
 

@@ -2,7 +2,7 @@ package PMLTQ::Relation::DepthFirstRangeIterator;
 BEGIN {
   $PMLTQ::Relation::DepthFirstRangeIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::DepthFirstRangeIterator::VERSION = '0.8.1';
+$PMLTQ::Relation::DepthFirstRangeIterator::VERSION = '0.8.2';
 # ABSTRACT: Iterates tree using depth first search in given boundaries
 
 
@@ -143,7 +143,7 @@ PMLTQ::Relation::DepthFirstRangeIterator - Iterates tree using depth first searc
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 SYNOPSIS
 

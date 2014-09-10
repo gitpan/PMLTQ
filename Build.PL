@@ -20,7 +20,7 @@ my %module_build_args = (
     "Michal Sedl\x{e1}k <sedlak\@ufal.mff.cuni.cz>"
   ],
   "dist_name" => "PMLTQ",
-  "dist_version" => "0.8.1",
+  "dist_version" => "0.8.2",
   "license" => "perl",
   "module_name" => "PMLTQ",
   "recommends" => {

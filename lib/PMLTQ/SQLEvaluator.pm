@@ -2,7 +2,7 @@ package PMLTQ::SQLEvaluator;
 BEGIN {
   $PMLTQ::SQLEvaluator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::SQLEvaluator::VERSION = '0.8.1';
+$PMLTQ::SQLEvaluator::VERSION = '0.8.2';
 # ABSTRACT: SQL evaluator of PML-TQ queries which can use PostreSQL or Oracle as a backend
 
 use 5.006;
@@ -2982,7 +2982,7 @@ PMLTQ::SQLEvaluator - SQL evaluator of PML-TQ queries which can use PostreSQL or
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 AUTHORS
 

@@ -2,7 +2,7 @@ package PMLTQ::Relation::CurrentFilelistTreesIterator;
 BEGIN {
   $PMLTQ::Relation::CurrentFilelistTreesIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::CurrentFilelistTreesIterator::VERSION = '0.8.1';
+$PMLTQ::Relation::CurrentFilelistTreesIterator::VERSION = '0.8.2';
 # ABSTRACT: Iterates over trees in files of given file list (calling TredMacro::NextFile())
 
 use 5.006;
@@ -62,7 +62,7 @@ PMLTQ::Relation::CurrentFilelistTreesIterator - Iterates over trees in files of 
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 AUTHORS
 

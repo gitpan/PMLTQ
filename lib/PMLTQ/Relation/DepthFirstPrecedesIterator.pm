@@ -2,7 +2,7 @@ package PMLTQ::Relation::DepthFirstPrecedesIterator;
 BEGIN {
   $PMLTQ::Relation::DepthFirstPrecedesIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::DepthFirstPrecedesIterator::VERSION = '0.8.1';
+$PMLTQ::Relation::DepthFirstPrecedesIterator::VERSION = '0.8.2';
 # ABSTRACT: Iterates tree using depth first search calling $node->following
 
 use 5.006;
@@ -59,7 +59,7 @@ PMLTQ::Relation::DepthFirstPrecedesIterator - Iterates tree using depth first se
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 AUTHORS
 

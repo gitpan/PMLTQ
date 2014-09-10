@@ -2,7 +2,7 @@ package PMLTQ::Relation::MemberIterator;
 BEGIN {
   $PMLTQ::Relation::MemberIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::MemberIterator::VERSION = '0.8.1';
+$PMLTQ::Relation::MemberIterator::VERSION = '0.8.2';
 # ABSTRACT: Iterates over member nodes of given list
 
 use 5.006;
@@ -49,7 +49,7 @@ PMLTQ::Relation::MemberIterator - Iterates over member nodes of given list
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 AUTHORS
 

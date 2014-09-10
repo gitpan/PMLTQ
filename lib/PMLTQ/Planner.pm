@@ -2,7 +2,7 @@ package PMLTQ::Planner;
 BEGIN {
   $PMLTQ::Planner::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Planner::VERSION = '0.8.1';
+$PMLTQ::Planner::VERSION = '0.8.2';
 # ABSTRACT: Optimalizing search trees for BtredEvaluator
 
 
@@ -44,7 +44,7 @@ sub SeqV { ref($_[0]) ? $_[0]->elements : () }
 sub name_all_query_nodes {
   my ($tree)=@_;
   my @nodes = grep { $_->{'#name'} =~ /^(?:node|subquery)$/ } $tree->descendants;
-  my $max=0;use Devel::StackTrace;
+  my $max=0;
   my %name2node = map {
     my $n=$_->{name};
     $max=$1+1 if defined($n) and $n=~/^n([0-9]+)$/ and $1>=$max;
@@ -292,7 +292,7 @@ PMLTQ::Planner - Optimalizing search trees for BtredEvaluator
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 DESCRIPTION
 

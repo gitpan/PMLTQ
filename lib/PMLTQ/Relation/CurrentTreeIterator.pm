@@ -2,7 +2,7 @@ package PMLTQ::Relation::CurrentTreeIterator;
 BEGIN {
   $PMLTQ::Relation::CurrentTreeIterator::AUTHORITY = 'cpan:MICHALS';
 }
-$PMLTQ::Relation::CurrentTreeIterator::VERSION = '0.8.1';
+$PMLTQ::Relation::CurrentTreeIterator::VERSION = '0.8.2';
 # ABSTRACT: Iterates over nodes of current tree
 
 use 5.006;
@@ -55,7 +55,7 @@ PMLTQ::Relation::CurrentTreeIterator - Iterates over nodes of current tree
 
 =head1 VERSION
 
-version 0.8.1
+version 0.8.2
 
 =head1 AUTHORS
 
