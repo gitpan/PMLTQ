@@ -1,8 +1,9 @@
 package PMLTQ::PML2BASE;
-BEGIN {
-  $PMLTQ::PML2BASE::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::PML2BASE::VERSION = '0.8.3';
 }
-$PMLTQ::PML2BASE::VERSION = '0.8.2';
+
 # ABSTRACT: Convert from PML to SQL
 
 
@@ -1545,7 +1546,7 @@ PMLTQ::PML2BASE - Convert from PML to SQL
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 DESCRIPTION
 

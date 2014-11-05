@@ -1,8 +1,9 @@
 package PMLTQ;
-BEGIN {
-  $PMLTQ::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::VERSION = '0.8.3';
 }
-$PMLTQ::VERSION = '0.8.2';
+
 # ABSTRACT: Query engine and query language for trees in PML format
 
 
@@ -11,10 +12,22 @@ use warnings;
 
 use File::Basename 'dirname';
 use File::Spec ();
+use File::ShareDir 'dist_dir';
 
-my $home = File::Spec->catdir(dirname(__FILE__), __PACKAGE__);
+my $home_dir = File::Spec->catdir(dirname(__FILE__), __PACKAGE__);
+my $shared_dir = eval {	dist_dir(__PACKAGE__) };
 
-sub home { $home }
+# Assume installation
+unless ($shared_dir) {
+	my $updir = File::Spec->updir();
+	$shared_dir = File::Spec->catdir(dirname(__FILE__), $updir, 'share');	
+}
+
+sub home { $home_dir }
+
+sub shared_dir { $shared_dir }
+
+sub resources_dir { File::Spec->catdir($shared_dir, 'resources') }
 
 1;
 
@@ -30,7 +43,7 @@ PMLTQ - Query engine and query language for trees in PML format
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 DESCRIPTION
 

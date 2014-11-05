@@ -1,8 +1,9 @@
 package PMLTQ::Planner;
-BEGIN {
-  $PMLTQ::Planner::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::Planner::VERSION = '0.8.3';
 }
-$PMLTQ::Planner::VERSION = '0.8.2';
+
 # ABSTRACT: Optimalizing search trees for BtredEvaluator
 
 
@@ -292,7 +293,7 @@ PMLTQ::Planner - Optimalizing search trees for BtredEvaluator
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 DESCRIPTION
 

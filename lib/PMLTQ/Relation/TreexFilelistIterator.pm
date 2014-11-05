@@ -1,8 +1,9 @@
 package PMLTQ::Relation::TreexFilelistIterator;
-BEGIN {
-  $PMLTQ::Relation::TreexFilelistIterator::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::Relation::TreexFilelistIterator::VERSION = '0.8.3';
 }
-$PMLTQ::Relation::TreexFilelistIterator::VERSION = '0.8.2';
+
 # ABSTRACT: Same as L<PMLTQ::Relation::FileListIterator> but for Treex files
 
 use 5.006;
@@ -51,7 +52,7 @@ PMLTQ::Relation::TreexFilelistIterator - Same as L<PMLTQ::Relation::FileListIter
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 AUTHORS
 

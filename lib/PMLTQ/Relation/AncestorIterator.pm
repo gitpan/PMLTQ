@@ -1,8 +1,9 @@
 package PMLTQ::Relation::AncestorIterator;
-BEGIN {
-  $PMLTQ::Relation::AncestorIterator::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::Relation::AncestorIterator::VERSION = '0.8.3';
 }
-$PMLTQ::Relation::AncestorIterator::VERSION = '0.8.2';
+
 # ABSTRACT: Iterates over ancestor nodes
 
 use 5.006;
@@ -55,7 +56,7 @@ PMLTQ::Relation::AncestorIterator - Iterates over ancestor nodes
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 AUTHORS
 

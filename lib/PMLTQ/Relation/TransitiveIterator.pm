@@ -1,8 +1,9 @@
 package PMLTQ::Relation::TransitiveIterator;
-BEGIN {
-  $PMLTQ::Relation::TransitiveIterator::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::Relation::TransitiveIterator::VERSION = '0.8.3';
 }
-$PMLTQ::Relation::TransitiveIterator::VERSION = '0.8.2';
+
 # ABSTRACT: Iterates over nodes that are transitive
 
 use 5.006;
@@ -141,7 +142,7 @@ PMLTQ::Relation::TransitiveIterator - Iterates over nodes that are transitive
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 AUTHORS
 

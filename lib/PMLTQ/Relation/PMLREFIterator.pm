@@ -1,8 +1,9 @@
 package PMLTQ::Relation::PMLREFIterator;
-BEGIN {
-  $PMLTQ::Relation::PMLREFIterator::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::Relation::PMLREFIterator::VERSION = '0.8.3';
 }
-$PMLTQ::Relation::PMLREFIterator::VERSION = '0.8.2';
+
 # ABSTRACT: Iterates over PML reference
 
 use 5.006;
@@ -68,7 +69,7 @@ PMLTQ::Relation::PMLREFIterator - Iterates over PML reference
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 AUTHORS
 

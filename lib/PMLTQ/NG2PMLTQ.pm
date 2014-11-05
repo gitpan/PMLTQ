@@ -1,8 +1,9 @@
 package PMLTQ::NG2PMLTQ;
-BEGIN {
-  $PMLTQ::NG2PMLTQ::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::NG2PMLTQ::VERSION = '0.8.3';
 }
-$PMLTQ::NG2PMLTQ::VERSION = '0.8.2';
+
 # ABSTRACT: [DEPRECATED] Conversion functions from NetGraph to PML-TQ
 
 
@@ -333,7 +334,7 @@ PMLTQ::NG2PMLTQ - [DEPRECATED] Conversion functions from NetGraph to PML-TQ
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 SYNOPSIS
 

@@ -1,8 +1,9 @@
 package PMLTQ::Relation::TreeIterator;
-BEGIN {
-  $PMLTQ::Relation::TreeIterator::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::Relation::TreeIterator::VERSION = '0.8.3';
 }
-$PMLTQ::Relation::TreeIterator::VERSION = '0.8.2';
+
 # ABSTRACT: Evaluates condition on the whole tree of given node
 
 use 5.006;
@@ -72,7 +73,7 @@ PMLTQ::Relation::TreeIterator - Evaluates condition on the whole tree of given n
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 AUTHORS
 

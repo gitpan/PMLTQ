@@ -50,6 +50,7 @@ sub pmver {
 
 eval { $v .= pmver('Benchmark','1.12') };
 eval { $v .= pmver('Digest::MD5','2.51') };
+eval { $v .= pmver('File::ShareDir','1.102') };
 eval { $v .= pmver('File::Spec','any version') };
 eval { $v .= pmver('Graph','0.96') };
 eval { $v .= pmver('Graph::ChuLiuEdmonds','0.06') };
@@ -58,7 +59,7 @@ eval { $v .= pmver('IO::Scalar','2.110') };
 eval { $v .= pmver('IPC::Open3','any version') };
 eval { $v .= pmver('JSON','2.90') };
 eval { $v .= pmver('MIME::Types','2.04') };
-eval { $v .= pmver('Module::Build','0.28') };
+eval { $v .= pmver('Module::Build','0.3601') };
 eval { $v .= pmver('Sys::SigAction','0.21') };
 eval { $v .= pmver('Test::Exception','0.32') };
 eval { $v .= pmver('Test::More','0.88') };

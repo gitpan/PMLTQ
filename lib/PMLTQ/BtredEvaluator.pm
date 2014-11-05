@@ -1,8 +1,9 @@
 package PMLTQ::BtredEvaluator;
-BEGIN {
-  $PMLTQ::BtredEvaluator::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::BtredEvaluator::VERSION = '0.8.3';
 }
-$PMLTQ::BtredEvaluator::VERSION = '0.8.2';
+
 # ABSTRACT: Pure perl evaluator of PML-TQ queries based on headless implementation of TrEd called Btred
 
 use 5.006;
@@ -18,33 +19,6 @@ use UNIVERSAL::DOES;
 use if $ENV{TREEX_EXTENSION}, 'Treex::Core::Document';
 
 use PMLTQ::Common qw(:constants first min max uniq ListV AltV SeqV compute_column_data_type compute_expression_data_type compute_expression_data_type_pt);
-
-use PMLTQ::Relation::FSFileIterator;
-use PMLTQ::Relation::CurrentFileIterator;
-use PMLTQ::Relation::CurrentFileIterator;
-use PMLTQ::Relation::TreexFileIterator;
-use PMLTQ::Relation::CurrentFilelistIterator;
-use PMLTQ::Relation::TreexFilelistIterator;
-use PMLTQ::Relation::CurrentTreeIterator;
-use PMLTQ::Relation::CurrentFilelistTreesIterator;
-use PMLTQ::Relation::TreeIterator;
-use PMLTQ::Relation::SameTreeIterator;
-use PMLTQ::Relation::TransitiveIterator;
-use PMLTQ::Relation::OptionalIterator;
-use PMLTQ::Relation::ChildnodeIterator;
-use PMLTQ::Relation::DepthFirstPrecedesIterator;
-use PMLTQ::Relation::DepthFirstFollowsIterator;
-use PMLTQ::Relation::DepthFirstRangeIterator;
-use PMLTQ::Relation::DescendantIterator;
-use PMLTQ::Relation::DescendantIteratorWithBoundedDepth;
-use PMLTQ::Relation::ParentIterator;
-use PMLTQ::Relation::AncestorIterator;
-use PMLTQ::Relation::AncestorIteratorWithBoundedDepth;
-use PMLTQ::Relation::SiblingIterator;
-use PMLTQ::Relation::SiblingIteratorWithDistance;
-use PMLTQ::Relation::PMLREFIterator;
-use PMLTQ::Relation::MemberIterator;
-use PMLTQ::Relation::OrderIterator;
 
 our $STOP;
 our $PROGRESS;
@@ -3232,7 +3206,7 @@ PMLTQ::BtredEvaluator - Pure perl evaluator of PML-TQ queries based on headless 
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 IMPLEMENTATION
 

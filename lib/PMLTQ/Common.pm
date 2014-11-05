@@ -1,8 +1,9 @@
 package PMLTQ::Common;
-BEGIN {
-  $PMLTQ::Common::AUTHORITY = 'cpan:MICHALS';
+our $AUTHORITY = 'cpan:MICHALS';
+{
+  $PMLTQ::Common::VERSION = '0.8.3';
 }
-$PMLTQ::Common::VERSION = '0.8.2';
+
 # ABSTRACT: Helper functions mainly for PML manipulations
 
 use 5.006;
@@ -1197,7 +1198,7 @@ PMLTQ::Common - Helper functions mainly for PML manipulations
 
 =head1 VERSION
 
-version 0.8.2
+version 0.8.3
 
 =head1 AUTHORS
 
